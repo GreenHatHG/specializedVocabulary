@@ -19,9 +19,11 @@
 
 # Tool
 
-| 词汇    | 解释                                                         | 参考链接                                                  |
-| ------- | ------------------------------------------------------------ | --------------------------------------------------------- |
-| Flutter | **Flutter**是一个由[谷歌](https://zh.wikipedia.org/wiki/%E8%B0%B7%E6%AD%8C)开发的[开源](https://zh.wikipedia.org/wiki/%E5%BC%80%E6%BA%90%E8%BD%AF%E4%BB%B6)移动应用软件开发工具包，用于为[Android](https://zh.wikipedia.org/wiki/Android)和[iOS](https://zh.wikipedia.org/wiki/IOS)开发应用，同时也将是[Google Fuchsia](https://zh.wikipedia.org/wiki/Google_Fuchsia)下开发应用的主要工具[[2\]](https://zh.wikipedia.org/wiki/Flutter#cite_note-2) | [维基百科-flutter](https://zh.wikipedia.org/wiki/flutter) |
+| 词汇          | 解释                                                         | 参考链接                                                     |
+| ------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| Flutter       | **Flutter**是一个由[谷歌](https://zh.wikipedia.org/wiki/%E8%B0%B7%E6%AD%8C)开发的[开源](https://zh.wikipedia.org/wiki/%E5%BC%80%E6%BA%90%E8%BD%AF%E4%BB%B6)移动应用软件开发工具包，用于为[Android](https://zh.wikipedia.org/wiki/Android)和[iOS](https://zh.wikipedia.org/wiki/IOS)开发应用，同时也将是[Google Fuchsia](https://zh.wikipedia.org/wiki/Google_Fuchsia)下开发应用的主要工具[[2\]](https://zh.wikipedia.org/wiki/Flutter#cite_note-2) | [维基百科-flutter](https://zh.wikipedia.org/wiki/flutter)    |
+| Solr          | Solr是一个独立的[企业级搜索](https://baike.baidu.com/item/%E4%BC%81%E4%B8%9A%E7%BA%A7%E6%90%9C%E7%B4%A2)应用服务器，它对外提供类似于Web-service的API接口。用户可以通过http请求，向搜索引擎服务器提交一定格式的XML文件，生成索引；也可以通过Http Get操作提出查找请求，并得到XML格式的返回结果。 | [*Solr*_百度百科](http://www.baidu.com/link?url=-xejtyGfX00ulfCAPlqHievVATsiXUPi3EpaH-IjGYc886gWJ18h8GTBd-eXoTY7__iNNNxrtUxsyrWrpxylR_&wd=&eqid=afef550d000620b7000000065ca76928) |
+| elasticsearch | ElasticSearch是一个基于Lucene的搜索服务器。它提供了一个分布式多用户能力的全文搜索引擎，基于RESTful web接口。Elasticsearch是用Java开发的，并作为Apache许可条款下的开放源码发布，是当前流行的企业级搜索引擎。设计用于[云计算](https://baike.baidu.com/item/%E4%BA%91%E8%AE%A1%E7%AE%97/9969353)中，能够达到实时搜索，稳定，可靠，快速，安装使用方便。 | [*elasticsearch*_百度百科](http://www.baidu.com/link?url=ugV6ioB3hMDOQyp1Yh5GIZu9F9J5X43CjcCWl4vWHD0G7aX0IxgBNNNmUODiryfC6QUbMqWgdwLMSmrXNbheVZzBFLrRIG6NcrrvSfLLQni&wd=&eqid=ff3c6b940001cb5f000000065ca76abb) |
 
 # Distributed 
 
@@ -54,4 +56,12 @@
 | 词汇   | 解释                                                         | 参考链接                                                     |
 | ------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | 中间件 | 中间件(middleware)是一种独立的[系统](https://baike.baidu.com/item/%E7%B3%BB%E7%BB%9F)软件或服务程序，分布式应用软件借助这种软件在不同的技术之间共享资源。中间件位于客户机/ 服务器的操作系统之上，管理计算机资源和网络通讯。是连接两个独立应用程序或独立系统的[软件](https://baike.baidu.com/item/%E8%BD%AF%E4%BB%B6/12053)。相连接的系统，即使它们具有不同的接口，但通过中间件相互之间仍能交换信息。执行中间件的一个关键途径是信息传递。通过中间件，应用程序可以工作于多平台或[OS](https://baike.baidu.com/item/OS/688)环境。 | [中间件_百度百科](https://baike.baidu.com/item/%E4%B8%AD%E9%97%B4%E4%BB%B6) |
+
+# 大数据引擎
+
+| 词汇   | 解释                                                         | 参考链接                                                     |
+| ------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| Flink  | Flink 是一个针对流数据和批数据的分布式处理引擎。它主要是由 Java 代码实现。目前主要还是依靠开源社区的贡献而发展。对 Flink而言，其所要处理的主要场景就是流数据，批数据只是流数据的一个极限特例而已。再换句话说，Flink 会把所有任务当成流来处理，这也是其最大的特点。 | [新一代大数据处理引擎Apache Flink - IBM](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=2&cad=rja&uact=8&ved=2ahUKEwjooYXCkrnhAhU_xYsBHRkKCkYQFjABegQIAxAB&url=https%3A%2F%2Fwww.ibm.com%2Fdeveloperworks%2Fcn%2Fopensource%2Fos-cn-apache-flink%2Findex.html&usg=AOvVaw1DJC0x8dKlUbnuHSbB21i0) |
+| Spark  | Apache Spark是专为大规模数据处理而设计的快速通用的计算引擎。现在形成一个高速发展应用广泛的生态系统。Spark 是一种与 Hadoop 相似的开源集群计算环境，但是两者之间还存在一些不同之处，这些有用的不同之处使 Spark 在某些工作负载方面表现得更加优越，换句话说，Spark 启用了内存分布数据集，除了能够提供交互式查询外，它还可以优化迭代工作负载。 | [*SPARK*_百度百科](http://www.baidu.com/link?url=IZzJn2_xtEqpHSe3qxP65k8ZmWNRSicbrVzZsN67sr6fgL6FpA0jaSp26-5Y4s_OGHY3d3hyYutzKeF8BwhTgK&wd=&eqid=9be6b75f0002959b000000065ca76800) |
+| Hadoop | [Hadoop](https://baike.baidu.com/item/Hadoop)是一个由Apache基金会所开发的[分布式系统](https://baike.baidu.com/item/%E5%88%86%E5%B8%83%E5%BC%8F%E7%B3%BB%E7%BB%9F/4905336)基础架构。用户可以在不了解分布式底层细节的情况下，开发分布式程序。充分利用集群的威力进行高速运算和存储。<br/>Hadoop实现了一个[分布式文件系统](https://baike.baidu.com/item/%E5%88%86%E5%B8%83%E5%BC%8F%E6%96%87%E4%BB%B6%E7%B3%BB%E7%BB%9F/1250388)（Hadoop Distributed File System），简称HDFS。HDFS有高[容错性](https://baike.baidu.com/item/%E5%AE%B9%E9%94%99%E6%80%A7/9131391)的特点，并且设计用来部署在低廉的（low-cost）硬件上；而且它提供高吞吐量（high throughput）来访问[应用程序](https://baike.baidu.com/item/%E5%BA%94%E7%94%A8%E7%A8%8B%E5%BA%8F/5985445)的数据，适合那些有着超大数据集（large data set）的应用程序。<br/>HDFS放宽了（relax）POSIX的要求，可以以流的形式访问（streaming access）文件系统中的数据。 | [*Hadoop*_百度百科](http://www.baidu.com/link?url=EYWH10VjbDPx32X56TUKc_FzIOCKeyVJyhLxhdEImfltr7CmrDOxoecxRJ6-GUzE45uM099GWnwZc5Ms82IKBq&wd=&eqid=fe7bac7200006710000000065ca76881) |
 
