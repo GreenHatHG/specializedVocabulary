@@ -4,14 +4,27 @@
 | Flask | **Flask**是一个使用[Python](https://zh.wikipedia.org/wiki/Python)编写的轻量级[Web应用框架](https://zh.wikipedia.org/wiki/Web%E5%BA%94%E7%94%A8%E6%A1%86%E6%9E%B6)。基于Werkzeug [WSGI](https://zh.wikipedia.org/wiki/WSGI)工具箱和Jinja2 [模板引擎](https://zh.wikipedia.org/wiki/%E6%A8%A1%E6%9D%BF%E5%BC%95%E6%93%8E)。**Flask**使用BSD授权。Flask被称为“microframework”，因为它使用简单的核心，用extension增加其他功能。Flask没有默认使用的数据库、窗体验证工具。然而，Flask保留了扩增的弹性，可以用[Flask-extension](http://flask.pocoo.org/extensions/)加入这些功能：[ORM](https://zh.wikipedia.org/wiki/%E5%B0%8D%E8%B1%A1%E9%97%9C%E4%BF%82%E6%98%A0%E5%B0%84)、窗体验证工具、文件上传、各种开放式身份验证技术短文本 | [维基百科-Flask](https://zh.wikipedia.org/wiki/Flask) |
 # DataBase
 | 词汇 | 解释 | 参考链接 |
-| :----- | :----- | ------ |
+| ------ | :----- | ------ |
 | Redis | **Redis**是一个使用[ANSI C](https://zh.wikipedia.org/wiki/ANSI_C)编写的[开源](https://zh.wikipedia.org/wiki/%E5%BC%80%E6%BA%90)、支持[网络](https://zh.wikipedia.org/wiki/%E7%94%B5%E8%84%91%E7%BD%91%E7%BB%9C)、基于[内存](https://zh.wikipedia.org/wiki/%E5%86%85%E5%AD%98)、可选[持久性](https://zh.wikipedia.org/w/index.php?title=%E6%8C%81%E4%B9%85%E6%80%A7_(%E6%95%B0%E6%8D%AE%E5%BA%93)&action=edit&redlink=1)的[键值对存储数据库](https://zh.wikipedia.org/w/index.php?title=%E9%94%AE%E5%80%BC-%E5%80%BC%E6%95%B0%E6%8D%AE%E5%BA%93&action=edit&redlink=1)。从2015年6月开始，Redis的开发由[Redis Labs](https://zh.wikipedia.org/w/index.php?title=Redis_Labs&action=edit&redlink=1)赞助，而2013年5月至2015年6月期间，其开发由[Pivotal](https://zh.wikipedia.org/wiki/Pivotal)赞助。[[3\]](https://zh.wikipedia.org/wiki/Redis#cite_note-3)在2013年5月之前，其开发由[VMware](https://zh.wikipedia.org/wiki/VMware)赞助。[[4\]](https://zh.wikipedia.org/wiki/Redis#cite_note-4)[[5\]](https://zh.wikipedia.org/wiki/Redis#cite_note-5)根据月度排行网站DB-Engines.com的数据显示，Redis是最流行的键值对存储数据库。 | [维基百科-Redis](https://zh.wikipedia.org/wiki/Redis) |
 | MongoDB | **MongoDB**是一种面向文档的[数据库管理系统](https://zh.wikipedia.org/wiki/%E6%95%B0%E6%8D%AE%E5%BA%93%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F)，由[C++](https://zh.wikipedia.org/wiki/C%2B%2B)撰写而成，以此来解决应用程序开发社区中的大量现实问题。2007年10月，MongoDB由[10gen](https://zh.wikipedia.org/w/index.php?title=10gen&action=edit&redlink=1)团队所发展。2009年2月首度推出。 | [维基百科-MongoDB](https://zh.wikipedia.org/zh-cn/MongoDB) |
 | PostgreSQL | [PostgreSQL](https://baike.baidu.com/item/PostgreSQL/530240) 是一个免费的对象-关系数据库服务器(数据库管理系统)，它在灵活的 BSD-风格许可证下发行。它提供了相对其他开放源代码数据库系统(比如 MySQL 和 Firebird)，和专有系统(比如 Oracle、Sybase、IBM 的 DB2 和 Microsoft SQL Server)之外的另一种选择 | [PostgreSQL_百度百科](https://baike.baidu.com/item/PostgreSQL) |
 | Cassandra | Apache Cassandra是一套开源分布式NoSQL数据库系统。它最初由Facebook开发，用于储存收件箱等简单格式数据，集Google BigTable的数据模型与Amazon Dynamo的完全分布式架构于一身 | [维基百科-Cassandra](https://zh.wikipedia.org/zh-cn/Cassandra) |
 | time series databases | 时序列数据库（Time series database）：用来存储时序列（time-series）数据并以时间（点或区间）建立索引的软件 | [时序*数据库*(TSDB:*time* *series* databases) - 约会远行的专栏](https://www.baidu.com/link?url=EBWJ3kyn1oJH7mzSQL-dTp3ZIHkZu7ielo8s9Qtc0JB5p_n91dJRHMse2D2tPV-IRIakacb4xowW2MtyX4QGrO6JdNeIBCjebDBkIClpu9a&wd=&eqid=a78b8dc1000fa653000000065c9622a0) |
+# Data Language
+
+| 词汇                                | 解释                                                         | 参考链接                                                     |
+| ----------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| **DDL**(Data Definition  Language)  | 数据库定义语言,操作数据库，表(创建，删除，修改))<br/>主要负责操作数据库和数据表的结构，不操作具体的表数据  具体说，就是只负责数据库和数据表的创建，修改，删除； 比如：定义数据库的名称和编码格式，表的名称和列名以及类型，主外键等等 | [SQL分类：DDL/DML/DQL/DCL以及作用](https://blog.csdn.net/baidu_37107022/article/details/77370354) |
+| **DML**(Data Manipulation Language) | 数据库操作语言：操作表的数据(插入，删除，修改))<br/>主要负责数据表的数据的增删改(insert,delete,update) | [SQL分类：DDL/DML/DQL/DCL以及作用](https://blog.csdn.net/baidu_37107022/article/details/77370354) |
+| **DQL**(Data Query Language)        | 数据库查询语言:操作表的数据，查询表的数据)<br/>主要负责数据库的数据查询(select) | [SQL分类：DDL/DML/DQL/DCL以及作用](https://blog.csdn.net/baidu_37107022/article/details/77370354) |
+| **DCL**(Data Control Language)      | 数据控制语言<br/>主要是用来设置或更改数据库用户或角色权限的语句 比如Oracle默认的Scott用户没有创建视图的权限 | [SQL分类：DDL/DML/DQL/DCL以及作用](https://blog.csdn.net/baidu_37107022/article/details/77370354) |
+
+# Database Engine(Storage Engine)
+
+![](pic/MySQL数据库引擎的比较.png)
 
 # OperatingSystem
+
 | 词汇 | 解释 | 参考链接 |
 | :----- | :----- | ------ |
 | Kubernetes | **Kubernetes**（常简称为**K8s**）是用于自动部署、扩展和管理[容器化](https://zh.wikipedia.org/wiki/%E4%BD%9C%E6%A5%AD%E7%B3%BB%E7%B5%B1%E5%B1%A4%E8%99%9B%E6%93%AC%E5%8C%96)（containerized）应用程序的[开源](https://zh.wikipedia.org/wiki/%E5%BC%80%E6%BA%90%E8%BD%AF%E4%BB%B6)系统。[[3\]](https://zh.wikipedia.org/wiki/Kubernetes#cite_note-3)该系统由[Google](https://zh.wikipedia.org/wiki/Google)设计并捐赠给Cloud Native Computing Foundation（今属[Linux基金会](https://zh.wikipedia.org/wiki/Linux%E5%9F%BA%E9%87%91%E4%BC%9A)）来使用。它旨在提供“跨主机集群的自动部署、扩展以及运行应用程序容器的平台”。[[4\]](https://zh.wikipedia.org/wiki/Kubernetes#cite_note-4) 它支持一系列容器工具, 包括[Docker](https://zh.wikipedia.org/wiki/Docker_(%E8%BB%9F%E9%AB%94))等。CNCF于2017年宣布首批Kubernetes认证服务提供商（KCSPs），包含[IBM](https://zh.wikipedia.org/wiki/IBM)、[华为](https://zh.wikipedia.org/wiki/%E8%8F%AF%E7%82%BA)、MIRANTIS、inwinSTACK迎栈科技等[[5\]](https://zh.wikipedia.org/wiki/Kubernetes#cite_note-5)服务商 | [维基百科-kubernetes](https://zh.wikipedia.org/wiki/kubernetes) |
