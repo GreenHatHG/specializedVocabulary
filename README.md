@@ -49,6 +49,8 @@
 | 词汇 | 解释                                                         | 参考链接                                           |
 | ---- | ------------------------------------------------------------ | -------------------------------------------------- |
 | JNDI | JNDI(Java Naming and Directory Interface,Java命名和目录接口)是[SUN公司](https://baike.baidu.com/item/SUN公司)提供的一种标准的Java命名系统接口，JNDI提供统一的[客户端](https://baike.baidu.com/item/客户端/101081)API，通过不同的访问提供者接口JNDI服务供应接口(SPI)的实现，由管理者将JNDI API映射为特定的命名服务和目录系统，使得Java[应用程序](https://baike.baidu.com/item/应用程序/5985445)可以和这些命名服务和[目录服务](https://baike.baidu.com/item/目录服务/10413830)之间进行交互。 | [JNDI 百度百科](https://baike.baidu.com/item/JNDI) |
+| JDO  | JDO(Java Data Object )是Java[对象持久化](https://baike.baidu.com/item/对象持久化/7316192)的新的规范，也是一个用于存取某种数据仓库中的对象的标准化API。 | [JDO 百度百科](https://baike.baidu.com/item/JDO)   |
+| JPA  | JPA是Java Persistence API的简称，中文名Java持久层API，是JDK 5.0注解或XML描述对象－关系表的映射关系，并将运行期的实体[对象持久化](https://baike.baidu.com/item/对象持久化/7316192)到数据库中。 | [JPA 百度百科](https://baike.baidu.com/item/JPA)   |
 
 # JavaWeb
 
