@@ -44,7 +44,13 @@
 | --------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | ZooKeeper | Apache ZooKeeper是[Apache软件基金会](https://zh.wikipedia.org/wiki/Apache%E8%BD%AF%E4%BB%B6%E5%9F%BA%E9%87%91%E4%BC%9A)的一个软件项目，他为大型[分布式计算](https://zh.wikipedia.org/wiki/%E5%88%86%E5%B8%83%E5%BC%8F%E8%AE%A1%E7%AE%97)提供[开源](https://zh.wikipedia.org/wiki/%E5%BC%80%E6%BA%90)的分布式配置服务、同步服务和命名注册。[[需要解释](https://zh.wikipedia.org/wiki/Wikipedia:%E4%B8%8D%E8%A6%81%E6%A8%A1%E7%A8%9C%E5%85%A9%E5%8F%AF)] ZooKeeper曾经是[Hadoop](https://zh.wikipedia.org/wiki/Hadoop)的一个子项目，但现在是一个独立的顶级项目。ZooKeeper的架构通过冗余服务实现[高可用性](https://zh.wikipedia.org/w/index.php?title=%E9%AB%98%E5%8F%AF%E7%94%A8%E6%80%A7%E9%9B%86%E7%BE%A4&action=edit&redlink=1)。因此，如果第一次无应答，客户端就可以询问另一台ZooKeeper主机。ZooKeeper节点将它们的数据存储于一个分层的命名空间，非常类似于一个文件系统或一个[前缀树](https://zh.wikipedia.org/wiki/%E5%89%8D%E7%BC%80%E6%A0%91)结构。客户端可以在节点读写，从而以这种方式拥有一个共享的配置服务。更新是[全序](https://zh.wikipedia.org/wiki/%E5%85%A8%E5%BA%8F)的。[[1\]](https://zh.wikipedia.org/wiki/Apache_ZooKeeper#cite_note-1)使用ZooKeeper的公司包括[Rackspace](https://zh.wikipedia.org/wiki/Rackspace)、[雅虎](https://zh.wikipedia.org/wiki/%E9%9B%85%E8%99%8E)[[2\]](https://zh.wikipedia.org/wiki/Apache_ZooKeeper#cite_note-2)和[eBay](https://zh.wikipedia.org/wiki/EBay)，以及类似于像[Solr](https://zh.wikipedia.org/wiki/Solr)这样的开源[企业级搜索](https://zh.wikipedia.org/w/index.php?title=%E4%BC%81%E4%B8%9A%E7%BA%A7%E6%90%9C%E7%B4%A2&action=edit&redlink=1)系统。[[3\]](https://zh.wikipedia.org/wiki/Apache_ZooKeeper#cite_note-3) | [维基百科-ZooKeeper](https://zh.wikipedia.org/wiki/Apache_ZooKeeper) |
 
-# javaWeb
+# Java
+
+| 词汇 | 解释                                                         | 参考链接                                           |
+| ---- | ------------------------------------------------------------ | -------------------------------------------------- |
+| JNDI | JNDI(Java Naming and Directory Interface,Java命名和目录接口)是[SUN公司](https://baike.baidu.com/item/SUN公司)提供的一种标准的Java命名系统接口，JNDI提供统一的[客户端](https://baike.baidu.com/item/客户端/101081)API，通过不同的访问提供者接口JNDI服务供应接口(SPI)的实现，由管理者将JNDI API映射为特定的命名服务和目录系统，使得Java[应用程序](https://baike.baidu.com/item/应用程序/5985445)可以和这些命名服务和[目录服务](https://baike.baidu.com/item/目录服务/10413830)之间进行交互。 | [JNDI 百度百科](https://baike.baidu.com/item/JNDI) |
+
+# JavaWeb
 
 | 词汇 | 解释                                                         | 参考链接                                               |
 | ---- | ------------------------------------------------------------ | ------------------------------------------------------ |
